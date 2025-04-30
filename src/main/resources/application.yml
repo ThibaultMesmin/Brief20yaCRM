@@ -2,7 +2,7 @@ spring:
   application:
     name: brief20
   datasource:
-    url: jdbc:postgresql://localhost:5432/app
+    url: jdbc:postgresql://localhost:5433/app
     username: app
     password: app
   jpa:

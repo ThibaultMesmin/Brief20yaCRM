@@ -42,7 +42,7 @@ public class AuthController {
         .role(User.Role.CUSTOMER)
         .build()
         );
-        model.addAttribute("registerSuccess", true);
-        return "pages/login";
+        model.addAttribute("registerMessage", "Inscription réussie ! Vous pouvez maintenant vous connecter.");
+        return "redirect:/login";
     }
 }
